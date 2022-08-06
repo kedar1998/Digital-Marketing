@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Project-4</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+
+    <section id="navbar">
+
+        <div class="relative container max-w-7xl mx-auto p-6">
+            
+            <nav class="flex items-center justify-between">
+                <!-- NAV LEFT -->
+                <div class="flex items-center space-x-10 text-[#c7c7c7]">
+                    <img src="./assets/Logo.png" alt="" class="h-12">
+                    <div class="space-x-10 hidden md:flex">
+                        <a href="#" class="hover:text-black">Home</a>
+                        <a href="#" class="hover:text-black">About</a>
+                        <a href="#" class="hover:text-black">Services</a>
+                        <a href="#" class="hover:text-black">Portfolio</a>
+                        <a href="#" class="hover:text-black">Pricing</a>
+                    </div>
+                </div>
+
+                <!-- NAV RIGHT -->
+                <div class="hidden md:block">
+                    <button class="bg-primary px-6 py-3 text-white rounded-xl">Contact Us</button>
+                </div>
+
+                <!-- HAMBURGER -->
+                <div class="md:hidden">
+                    <button id="menu-btn" class="hamburger">
+                        <div class="hamburger-top"></div>
+                        <div class="hamburger-middle"></div>
+                        <div class="hamburger-bottom"></div>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- MENU -->
+            <div id="menu" class="hidden bg-primary text-white absolute top-20 rounded-xl py-5 right-2 left-2 flex flex-col items-center space-y-5">
+                        <a href="#" class="hover:text-black">Home</a>
+                        <a href="#" class="hover:text-black">About</a>
+                        <a href="#" class="hover:text-black">Services</a>
+                        <a href="#" class="hover:text-black">Portfolio</a>
+                        <a href="#" class="hover:text-black">Pricing</a>
+                        <div class="border-b-2 w-full border-slate-500"></div>
+                        <button class="bg-primary px-6 py-3 text-white border border-white rounded-xl">Contact Us</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MAIN SECTION -->
+
+
+    <section id="main">
+
+        <div class="container max-w-7xl mx-auto p-6">
+
+            <div class="flex flex-col-reverse md:flex-row items-center md:space-x-5">
+
+                <!-- LEFT CONTENT -->
+                
+                <div class="flex flex-col md:block md:w-1/2">
+                    <h1 class="font-bold text-5xl text-center md:text-left md:text-7xl">We help you <span class="text-primary">crush</span> your competition</h1>
+                    <p class="text-center md:text-left mt-10 text-[#989898]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis iusto omnis vitae maxime voluptatum mollitia a tempora doloribus sit? Iste?</p>
+                    <button class="md:text-left mt-8 py-3 px-6 bg-primary text-white rounded-xl">See Our Services</button>
+                </div>               
+                
+                <!-- RIGHT IMG -->
+                <div>
+                    <img src="./assets/Header Illustration.png" alt="" class="mx-auto h-80 md:h-[500px]">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
